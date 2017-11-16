@@ -1,0 +1,56 @@
+/* line 1, ../../sass/nav/nav.scss */
+body > nav {
+  z-index: 9;
+  padding: 1em 5%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  text-align: right;
+  width: 100%;
+}
+
+/* line 11, ../../sass/nav/nav.scss */
+nav .logo {
+  overflow: hidden;
+  margin-top: -6em;
+  float: left;
+  transition: all .5s;
+  opacity: .5;
+  background: #5F82BA;
+  padding: .5em .5em;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+}
+
+/* line 23, ../../sass/nav/nav.scss */
+nav a {
+  /*     box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);*/
+}
+
+/* line 27, ../../sass/nav/nav.scss */
+nav a + a {
+  transition: all .5s;
+  background: #c7ddef;
+  display: inline-block;
+  margin: 0 0.5em;
+  padding: .75em 1.5em;
+  opacity: .5;
+}
+
+/* line 37, ../../sass/nav/nav.scss */
+nav img {
+  height: 1.75em;
+  width: 6em;
+}
+
+/* line 42, ../../sass/nav/nav.scss */
+nav .logo:hover,
+nav a + a:hover {
+  opacity: 1;
+}
+
+/* line 47, ../../sass/nav/nav.scss */
+nav:hover .logo {
+  transition: all 0.5s ease;
+  margin-top: 0em;
+  display: block;
+}

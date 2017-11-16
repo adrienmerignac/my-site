@@ -1,0 +1,13 @@
+{
+  "name": "formation-html",
+  "version": "1.0.0",
+  "description": "Formation html",
+  "main": "index.js",
+  "scripts": {},
+  "author": "Adrien",
+  "license": "MIT",
+  "dependencies": {
+        "html5shiv": "3.7.3",
+        "bootstrap": "3.3.7"
+  }
+}

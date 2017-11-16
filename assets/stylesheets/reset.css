@@ -1,0 +1,34 @@
+/* line 1, ../sass/reset.scss */
+html, body, nav, header, section, footer, h1, p, div {
+  padding: 0em;
+  margin: 0;
+  width: 100%;
+  text-align: center;
+  box-sizing: border-box;
+}
+
+/* line 9, ../sass/reset.scss */
+a {
+  text-decoration: none !important;
+  color: inherit;
+}
+
+/* line 14, ../sass/reset.scss */
+div {
+  width: 100%;
+}
+
+/* line 18, ../sass/reset.scss */
+p {
+  padding: 0;
+}
+
+/* line 22, ../sass/reset.scss */
+ul {
+  list-style-type: none;
+}
+
+/* line 26, ../sass/reset.scss */
+.row {
+  margin: 0 !important;
+}

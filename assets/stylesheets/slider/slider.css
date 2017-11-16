@@ -1,0 +1,80 @@
+/* line 1, ../../sass/slider/slider.scss */
+body > header > div {
+  z-index: 7;
+  height: 30%;
+  position: absolute;
+  bottom: 0;
+  color: #e0e0e0;
+  overflow: hidden;
+}
+
+/* line 11, ../../sass/slider/slider.scss */
+body > header > p {
+  position: absolute;
+  bottom: 30%;
+  line-height: 2em;
+  background-color: #D2E0E6;
+  font-size: 1.5em;
+}
+
+/* line 19, ../../sass/slider/slider.scss */
+body > header {
+  z-index: 8;
+  position: relative;
+  background-image: url(./../image/background-slider.jpg);
+  background-repeat: no-repeat;
+  background-size: 115em;
+  background-position: right;
+  background-attachment: fixed;
+  animation-name: background;
+  animation-duration: 7s;
+  animation-iteration-count: infinite;
+}
+
+/* line 32, ../../sass/slider/slider.scss */
+h1 {
+  font-size: 4em;
+  position: absolute;
+  bottom: 40%;
+  color: #e0e0e0;
+}
+
+/* line 42, ../../sass/slider/slider.scss */
+body > header .language {
+  height: 70%;
+  position: relative;
+  text-align: center;
+  animation-duration: 25s;
+  animation-iteration-count: infinite;
+  opacity: 0%;
+}
+
+/* line 50, ../../sass/slider/slider.scss */
+body > header > div .php {
+  animation-name: php;
+  top: 115%;
+}
+
+/* line 55, ../../sass/slider/slider.scss */
+body > header > div .java {
+  animation-name: java;
+  top: 215%;
+}
+
+/* line 60, ../../sass/slider/slider.scss */
+body > header > div .android {
+  animation-name: android;
+  top: 315%;
+}
+
+/* line 65, ../../sass/slider/slider.scss */
+body > header > div .js {
+  animation-name: js;
+  top: 415%;
+}
+
+/* line 70, ../../sass/slider/slider.scss */
+body > header > div .html {
+  animation-name: html;
+  top: 515%;
+}

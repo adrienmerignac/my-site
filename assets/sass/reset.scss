@@ -1,0 +1,28 @@
+html, body, nav, header, section, footer, h1, p, div {
+    padding: 0em;
+    margin: 0;
+    width: 100%;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none !important;
+    color: inherit;
+}
+
+div {
+    width: 100%
+}
+
+p {
+    padding: 0;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.row {
+      margin: 0 !important;
+}
