@@ -13,6 +13,15 @@ three tabs are avalaible :
     "skills" allows to display your 5 best skills.
     "contact" is a simple form for the people visiting your page.
 
+Screenshoot
+------------------------
+
+![](https://raw.githubusercontent.com/adrienmerignac/my-site/master/resources/Screenshot-2017-11-16%20Formation%20HTML%20M2I(1).png)
+
+![](https://raw.githubusercontent.com/adrienmerignac/my-site/master/resources/Screenshot-2017-11-16%20Formation%20HTML%20M2I(3).png)
+
+![](https://raw.githubusercontent.com/adrienmerignac/my-site/master/resources/Screenshot-2017-11-16%20Formation%20HTML%20M2I(2).png)
+
 Installation
 -------------------------------
 
